@@ -8,7 +8,7 @@ function bringdata(){
 
     const xhttp = new XMLHttpRequest();
 
-    xhttp.open("GET", "", true);
+    xhttp.open("GET", "https//:randomuser.me/api", true);
 
     xhttp.send();
 
