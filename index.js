@@ -17,10 +17,6 @@ if (this.readyState == 4 && this.status == 200){
 
     document.querySelector("#answer").innerHTML = this.responseText;
 
-
-    //document.getElementById("outPut").innerHTML
-//var result = JSON.parse(this.responseText);
-//document.getElementById("#answer").innerHTML = result.name + result.username;
 }
 
     }
