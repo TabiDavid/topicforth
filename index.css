@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Jomolhari|Roboto&display=swap");
+
+body{
+    background: #009BC4;
+    font-family: "Jomolhari", sans-serif;
+}
+
+h1{
+  text-align: center;  
+}
+h2{
+    text-align: center;
+}
+p{text-align: center;
+}
