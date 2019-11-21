@@ -18,3 +18,17 @@ function loadDoc() {
 xhttp.open("GET", "https://mindicador.cl/api", true);
 xhttp.send();
 }
+
+function simpleFile() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var result = this.responseText;
+
+document.getElementById("simple").innerHTML = result;
+
+}
+};
+xhttp.open("GET", "https://mindicador.cl/api", true);
+xhttp.send();
+}
