@@ -13,9 +13,10 @@ function loadDoc() {
         document.getElementById("demo3").innerHTML = " Currency: " + result.bitcoin.nombre + "<br>" + "Compare value with: " + result.bitcoin.unidad_medida + "<br>" + " Date: " + result.bitcoin.fecha + 
         "<br>" + "Value: " + result.bitcoin.valor;
 
+
     }
 };
-xhttp.open("GET", "https://mindicador.cl/api/dolar", true);
+xhttp.open("GET", "https://mindicador.cl/api/", true);
 xhttp.send();
 }
 
@@ -29,6 +30,6 @@ document.getElementById("simple").innerHTML = result;
 
 }
 };
-xhttp.open("GET", "https://mindicador.cl/api", true);
+xhttp.open("GET", "https://mindicador.cl/api/", true);
 xhttp.send();
 }
