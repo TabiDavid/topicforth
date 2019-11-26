@@ -15,7 +15,7 @@ function loadDoc() {
 
     }
 };
-xhttp.open("GET", "https://mindicador.cl/api", true);
+xhttp.open("GET", "https://mindicador.cl/api/dolar", true);
 xhttp.send();
 }
 
